@@ -1,0 +1,12 @@
+public class InmutabilidadCadenas {
+    public static void main(String[] args) {
+        //Las cadenas son inmutables, no se modifica ningún caracter, se crea un nuevo objeto.
+        //Inmutabilidad de Cadenas
+        var cadena1 = "Hola";
+        System.out.println("cadena1 = " + cadena1);
+        var cadena2 = cadena1;
+        cadena1 = "Adiós";
+        System.out.println("cadena1 Modificado= " + cadena1);
+        System.out.println("cadena2 = " + cadena2);
+    }
+}

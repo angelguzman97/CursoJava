@@ -1,0 +1,12 @@
+Swing
+Java Swing es una librería de Java para crear aplicaciones gráficas
+GUI(Graphical User Interface) o también conocidas como aplicaciones
+de escritorios. Se puede aplicar el patrón MVC.
+
+Componente Swing
+Se conoce como JFrame
+Dentro de un JFrame podemos agregar un JPane (Panel) y dentro de él se puede agregar todo tipo de componentes como:
+-JButton
+-JTextFieldName
+-JPasswordField
+entre muchos otros componentes.
